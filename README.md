@@ -9,3 +9,8 @@ Community for UFT is a discord server [DiscordServer](http://discord.gg/b9rvak3)
 
 ## Support and donation
 
+| Name                                          | Description       |
+| --------------------------------------------- | ----------------- |
+| [PayPal](https://www.paypal.me/IslamNofl)     | one-time donation |
+| [Patreon](https://www.patreon.com/join/CorrM) | Monthly support   |
+| Star                                          | Star this repo    |
