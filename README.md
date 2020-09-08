@@ -1,7 +1,7 @@
 # Unreal Finder Tool
 
 This repo created to manage issues, releases and access [Unreal Finder Tool](https://corrm.github.io/uft) user interface.  
-Community for UFT is a discord server [DiscordServer](http://discord.gg/b9rvak3)
+Community for UFT is a discord server [DiscordServer](http://discord.gg/P9Pddgz)
 
 ## Requirements
 
