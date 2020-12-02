@@ -5,7 +5,7 @@ Community for UFT is a discord server [DiscordServer](http://discord.gg/P9Pddgz)
 
 ## Requirements
 
-- [.Net Core ^3.1](https://dotnet.microsoft.com/download/dotnet-core/current/runtime).
+- [.Net Core ^3.1](https://dotnet.microsoft.com/download/dotnet/current/runtime).
 
 ## Support and donation
 
