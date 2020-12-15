@@ -1,0 +1,15 @@
+name: Discord Webhook Messages
+on:
+  release:
+    types: [published]
+    
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run Discord Webhook
+        uses: bythope/discord-webhook-messages@v1.1.0
+        with:
+          webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
+          handler: 'release'
