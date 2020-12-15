@@ -1,5 +1,6 @@
 name: Discord Webhook Messages
 on:
+  workflow_dispatch:
   release:
     types: [published]
     
@@ -9,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run Discord Webhook
-        uses: bythope/discord-webhook-messages@v1.1.0
+        uses: tsickert/discord-webhook@v1.0.1
         with:
-          webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
-          handler: 'release'
+          webhook-url: ${{ secrets.DISCORD_WEBHOOK }}
+          content: "Test"
