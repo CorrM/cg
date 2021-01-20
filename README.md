@@ -1,6 +1,6 @@
-# Unreal Finder Tool
+# Cheat Gear
 
-This repo created to manage issues, releases and access [Unreal Finder Tool](https://corrm.github.io/uft) user interface.  
+This repo created to manage issues and releases [Cheat Gear](https://cheatgear.com) user interface.  
 Community for Unreal Finder Tool is a [Discord Server](http://discord.gg/P9Pddgz)
 
 ## Requirements
