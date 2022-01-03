@@ -5,7 +5,7 @@ Community for Cheat Gear is a [Discord Server](http://discord.gg/P9Pddgz)
 
 ## Requirements
 
-- [.Net 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime).
+- [.Net 6](https://dotnet.microsoft.com/download/dotnet/6.0/runtime).
 
 ## Support and donation
 
