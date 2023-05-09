@@ -6,11 +6,3 @@ Community for Cheat Gear is a [Discord Server](http://discord.gg/P9Pddgz)
 ## Requirements
 
 - [.Net 7](https://dotnet.microsoft.com/download/dotnet/7.0/runtime).
-
-## Support and donation
-
-| Name                                          | Description       |
-| --------------------------------------------- | ----------------- |
-| [PayPal](https://www.paypal.me/IslamNofl) ❤     | one-time donation |
-| [Patreon](https://www.patreon.com/join/CorrM) ❤ | Monthly support   |
-| ⭐                                              | Star this repo    |
