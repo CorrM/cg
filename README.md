@@ -1,7 +1,7 @@
 # Cheat Gear
 
 This repository manages the Cheat Gear [CLI tool](https://cheatgear.com).
-Community support for Cheat Gear is available on our [Discord Server](http://discord.gg/P9Pddgz).
+For community support please visit our [Discord Server](http://discord.gg/P9Pddgz).
 
 ## Requirements
 
@@ -19,10 +19,11 @@ For version 5(beta):
 There is two methods to provide your API key to CLI:
 - Pass your key as a command line arg `--api CG-XXXXXXXXXXXXXXXXXXXXXXXXXXXXX`
 - Set it in your environment variables using your terminal `setx CG_API_KEY CG-XXXXXXXXXXXXXXXXXXXXXXXXXXXXX`
+(Set Environment Variable in Windows {How-To} | phoenixNAP KB )
 
 ### Update configs
 
-It's a good idea to upgrade configs before starting:
+It's recommended to upgrade configs before starting:
 
 ```
 CheatGear.CLI.exe unreal config upgrade
@@ -30,8 +31,8 @@ CheatGear.CLI.exe unreal config upgrade
 
 ### Search for GNames/GObjects
 
-The main goal of using this tool is to generate SDK, To do that you need GNames and GObjects address
-to get them you could use these commands:
+The main objective of using this tool is to generate SDK, You will need two things to do that,GNames and GObjects addresses.
+To obtain these address please utilize the following commands:
 ```
 CheatGear.CLI.exe unreal search names -p PID -v UNREAL_VER -l SEARCH_LVL -c CONFIG_NAME
 CheatGear.CLI.exe unreal search objects -p PID -v UNREAL_VER -l SEARCH_LVL -c CONFIG_NAME
@@ -59,7 +60,7 @@ CheatGear.CLI.exe unreal sdk generate -p PID -v UNREAL_VER -c CONFIG_NAME -n GNA
 
 ### Convert SDK
 
-Generation SDK give us a `.cgs` file which we can use to convert it to a different programming language syntaxes:
+Generate SDK give us a `.cgs` file allowing us to convert it to a different programming language syntaxes:
 ```
 CheatGear.CLI.exe unreal sdk convert -f "CGS_FILE_PATH" -l LANGUAGE -t SYNTAX_TYPE
 ```
