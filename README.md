@@ -71,3 +71,22 @@ CheatGear.CLI.exe unreal sdk convert -f "CGS_FILE_PATH" -l LANGUAGE -t SYNTAX_TY
 ### Instance search/dump
 
 TODO
+
+## Fix generated SDK
+
+You have two options:
+
+**1. Delete this function from header and cpp file**
+```
+FUObjectItem::IsUnreachable // BasicTypes_FUObjectItem.h, BasicTypes.cpp
+FUObjectItem::IsPendingKill // BasicTypes_FUObjectItem.h, BasicTypes.cpp
+FWeakObjectPtr::SerialNumbersMatch // BasicTypes_FWeakObjectPtr.h, BasicTypes.cpp
+FWeakObjectPtr::IsValid // BasicTypes_FWeakObjectPtr.h, BasicTypes.cpp
+FWeakObjectPtr::Get // BasicTypes_FWeakObjectPtr.h, BasicTypes.cpp
+```
+
+**2. Add required fields**
+```
+FUObjectItem::Flags // int32
+FUObjectItem::SerialNumber // int32
+```
