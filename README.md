@@ -1,4 +1,4 @@
-# Cheat Gear
+# CheatGear
 
 This repository manages the Cheat Gear [CLI tool](https://cheatgear.com).
 For community support please visit our [Discord Server](http://discord.gg/P9Pddgz).
@@ -11,6 +11,11 @@ For version 4:
 For version 5(beta):
 - [.Net 8](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.0-windows-x64-installer).
   - You can install using WinGet `winget install Microsoft.DotNet.DesktopRuntime.8`.
+
+## Donwload
+
+- [Version 4](https://github.com/CorrM/cg/releases/tag/v4.0.11)
+- [Version 5](https://github.com/CorrM/cg/releases/latest) (Recommended)
 
 ## How to use CLI
 
