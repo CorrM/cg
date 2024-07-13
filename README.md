@@ -23,7 +23,9 @@ For version 5(beta):
 
 There is two methods to provide your API key to CLI:
 - Pass your key as a command line arg `--api CG-XXXXXXXXXXXXXXXXXXXXXXXXXXXXX`
-- Set it in your environment variables using your terminal `setx CG_API_KEY CG-XXXXXXXXXXXXXXXXXXXXXXXXXXXXX`
+- Set it in your environment variables using your terminal:
+  - Windows: `setx CG_API_KEY CG-XXXXXXXXXXXXXXXXXXXXXXXXXXXXX`
+  - Linux: `sudo sh -c "echo "CG_API_KEY=CG-XXXXXXXXXXXXXXXXXXXXXXXXXXXXX" >> /etc/environment"` then logout
 
 ### Update configs
 
