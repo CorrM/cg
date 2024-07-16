@@ -19,6 +19,14 @@ For version 5(beta):
 
 ## How to use CLI
 
+### Update CLI
+
+Make sure you are using latest CLI version:
+
+```
+CheatGear.CLI.exe update
+```
+
 ### Use your API key
 
 There is two methods to provide your API key to CLI:
