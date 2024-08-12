@@ -15,13 +15,14 @@ For version 5(beta):
 ## Donwload
 
 - [Version 4](https://github.com/CorrM/cg/releases/tag/v4.0.11)
-- [Version 5](https://github.com/CorrM/cg/releases/latest) (Recommended)
+- [Version 5](https://github.com/CorrM/cg/releases/download/v5.0.7.5-beta/CheatGear.Installer.exe) (Recommended)
+  - After installing v5 you should update to the latest version [Update CLI](update-cli)
 
 ## How to use CLI
 
 ### Update CLI
 
-Make sure you are using latest CLI version:
+Make sure you are using the latest CLI version:
 
 ```
 CheatGear.CLI.exe update
