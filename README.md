@@ -57,6 +57,10 @@ CheatGear.CLI.exe unreal search objects -p PID -v UNREAL_VER -l SEARCH_LVL -c CO
 - `SEARCH_LVL`: Each level uses a different algorithm going up means takes more time. (eg. 1/2/3)
 - `CONFIG_NAME`: Engine config that defines how the tool will interact with target memory. (eg. 3.0/3.1/4.21/4.25/5.0/5.3)
 
+Notes:
+- You can add `--objects-xor-key 0xGOBJECT_BLOCKS_XOR_KEY`(keep in mind `0x`) when search for `objects` so when CG try to derefernce blocks address will do `xor` op first
+  - `GObjects->Objects = reinterpret_cast<uintptr_t>(GObjects->Objects) ^ OBJECTS_XOR_KEY`
+
 ### Generate SDK
 
 After getting GNames/GObjects address we are ready to generate our SDK now to do that use this command:
@@ -71,6 +75,10 @@ CheatGear.CLI.exe unreal sdk generate -p PID -v UNREAL_VER -c CONFIG_NAME -n GNA
 - `GOBJECTS_ADDRESS`: GObjects address you got yourself or by using `search` command in hex format. (eg. 0x7FF745F22C18)
 - `GAME_NAME`: Game name. (eg. MyNiceGame)
 - `GAME_VERSION`: Game version. (eg. 1.0)
+
+Notes:
+- You can add `--objects-xor-key 0xGOBJECT_BLOCKS_XOR_KEY`(keep in mind `0x`) so when CG try to derefernce blocks address will do `xor` op first
+  - `GObjects->Objects = reinterpret_cast<uintptr_t>(GObjects->Objects) ^ OBJECTS_XOR_KEY`
 
 ### Convert SDK
 
